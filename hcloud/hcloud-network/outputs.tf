@@ -9,3 +9,4 @@ output "network_id" {
 output "network_ip_range" {
   value = "${hcloud_network.network.ip_range}"
 }
+
